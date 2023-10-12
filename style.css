@@ -1,0 +1,117 @@
+/* header */
+.logo{
+    width: 120px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.headcls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1{
+    margin-right: 60px;
+    display: flex;
+    list-style-type: none;
+}
+.links{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    margin-right: 20px;
+}
+.links:hover{
+    color: red;
+    
+}
+*{
+    font-family: roboto condensed;
+}
+#home{
+    margin-top: 100px;
+}
+.title{
+    margin-top: 13%;
+    margin-left: 8%
+}
+.titleh1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.secname{
+    color: orange;
+}
+.download{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.images{
+    position: absolute;
+    width: 45%;
+    height: 50%;
+    bottom: 0px;
+    right: 30px;
+
+}
+.images img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover #shape{
+    bottom: 40px;
+}
+.images:hover #girl{
+    left: 40%;
+}
+#about{
+    margin-top: 200px;
+}
+.heading{
+    text-align: center;
+    margin-top: 150px;
+}
+.heading h3{
+    color: green;
+}
+.about_content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 200px;
+    gap: 2rem;
+}
+.information{
+    margin-top: 2rem;
+}
+.info_box span{
+    margin-left: 10px;
+}
+.about_details{
+    text-align: justify;
+}
+#skill{
+    margin-top: 100px;
+    margin-left: 50%;
+}
+#skill span{
+    color: green;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
